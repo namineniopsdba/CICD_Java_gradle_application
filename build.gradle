@@ -28,6 +28,8 @@ test {
 sonarqube {
     properties {
         property 'sonar.host.url', 'http://44.200.245.1:9000'
-        property 'sonar.login', 'admin123'
+        property "sonar.sourceEncoding", "UTF-8"
+		property "sonar.projectName", "web-application-gradle"
+        property "sonar.login", "7b37b2ad626cbc2b30293330ca51b76b72a20f1c"
     }
 }
